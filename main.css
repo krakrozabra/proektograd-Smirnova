@@ -1,36 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Exo+2:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Exo+2:ital,wght@0,100;0,200;1,100&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,300;0,900;1,100;1,200;1,300;1,900&display=swap');
+
 h1{
     color:rgb(246, 246, 246);
-    text-decoration: dotted;
-    text-align: center;
-    	
-    
-    text-decoration:line-through;
-
+    font-size: 100px;
     
 }
 body{
-    background-color: black;
+    background:rgb(44, 40, 40);
     background-size: cover;
     background-repeat: no-repeat;
-}
+    font-family:Fira Sans Extra Condensed;
+
+    }
 
 
 p{
     font-size: 30px;
-    color: rgb(199, 192, 192);
-    font-style: italic;
-    text-decoration: underline;
-}
+    color: rgb(199, 192, 192);}
 a{
     text-decoration: none;
-    color:beige
-}
+    color:beige}
 .kartinka{
-    width:300px;
-
+    width:300px;}
+.kartinka2{
+    width:200px;}
+.font1{
+    font-family: Fira Sans Extra Condensed;
+    
+    font-weight: 100;
+}
+.font2{
+    font-family: Exo 2;
+}
+.eanglish{
+    font-size: 50px;
+}
+.background{
+    background:none
+}
+.class1{
+    font-family: Fira Sans Extra Condensed;
+    font-weight: bold;
+    font-size:40px;
+    color:red;
+    text-align: left;
 
 }
-.kartinka2{
-    width:200px;
-    
+.class1:hover{
+    color:aquamarine
+}
+.class2{
+    font-family: Caveat;
+    font-weight: 400;
+    font-size:30px;
+    color:black;
+    text-align: right;
+}
+.class3{
+    font-family: Caveat;
+    font-size:20px;
+    font-weight: 100;
+    color:blue;
+    text-align: center;
+}
+.red{
+    color:brown;
+    font-size: 70px;
+}
+.class4{
+    text-decoration: line-through;
+
 }
